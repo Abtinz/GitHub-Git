@@ -1,0 +1,7 @@
+Python
+Java,JavaFX
+C
+Html Css JS
+ML (Python)
+
+printing hello world in 100 programming language (Legend)
