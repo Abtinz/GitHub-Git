@@ -1,0 +1,36 @@
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git remote add origin git@github.com:Abtinz/GitHub-Git.git
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git push -u origin master
+
+////////////////////////////////////////////////////////////////////////////////////////
+git Clone Section :
+
+ABTIN@HMD MINGW64 ~/Desktop/New Git Folder
+$ git init
+Initialized empty Git repository in C:/Users/ABTIN/Desktop/New Git Folder/.git/
+ABTIN@HMD MINGW64 ~/Desktop/New Git Folder (master)
+$ git clone git@github.com:Abtinz/GitHub-Git.git
+Cloning into 'GitHub-Git'...
+remote: Enumerating objects: 20, done.
+remote: Counting objects: 100% (20/20), done.
+remote: Compressing objects: 100% (15/15), done.
+remote: Total 20 (delta 2), reused 20 (delta 2), pack-reused 0
+Receiving objects: 100% (20/20), 53.37 KiB | 25.00 KiB/s, done.
+Resolving deltas: 100% (2/2), done.
+
+ABTIN@HMD MINGW64 ~/Desktop/New Git Folder/GitHub-Git (master)
+$ git log --oneline
+86c5487 (HEAD -> master, origin/master, origin/HEAD) Make files Ready to push
+dbd545e First Project
+f07c0d6 New Skills have been saved
+f8d9955 Save courses
+b6a3d26 create courses and skills txt files
+7d847cf save name and last name
+0545c59 create PersoalInformation file
+
+
+
+
+
