@@ -21,6 +21,40 @@ Receiving objects: 100% (20/20), 53.37 KiB | 25.00 KiB/s, done.
 Resolving deltas: 100% (2/2), done.
 
 ABTIN@HMD MINGW64 ~/Desktop/New Git Folder/GitHub-Git (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        MaktabKhoneh/gitHubSecondProject.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ABTIN@HMD MINGW64 ~/Desktop/New Git Folder/GitHub-Git (master)
+$ git add .
+git c
+ABTIN@HMD MINGW64 ~/Desktop/New Git Folder/GitHub-Git (master)
+$ git commit -m "Second project of git course"
+[master 5a82ce1] Second project of git course
+ 1 file changed, 36 insertions(+)
+ create mode 100644 MaktabKhoneh/gitHubSecondProject.txt
+
+ABTIN@HMD MINGW64 ~/Desktop/New Git Folder/GitHub-Git (master)
+$ git push -u origin master
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 862 bytes | 215.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:Abtinz/GitHub-Git.git
+   86c5487..5a82ce1  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+
+ABTIN@HMD MINGW64 ~/Desktop/New Git Folder/GitHub-Git (master)
 $ git log --oneline
 86c5487 (HEAD -> master, origin/master, origin/HEAD) Make files Ready to push
 dbd545e First Project
