@@ -1,0 +1,308 @@
+ABTIN@HMD MINGW64 ~/Desktop/git hub
+$ git init
+Initialized empty Git repository in C:/Users/ABTIN/Desktop/git hub/.git/
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ touch PersoalInformation.txt
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        PersoalInformation.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git add  PersoalInformation.txt
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   PersoalInformation.txt
+
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git commit -m "create PersoalInformation file"
+[master (root-commit) 0545c59] create PersoalInformation file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 PersoalInformation.txt
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   PersoalInformation.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git diff
+diff --git a/PersoalInformation.txt b/PersoalInformation.txt
+index e69de29..e30d3ba 100644
+--- a/PersoalInformation.txt
++++ b/PersoalInformation.txt
+@@ -0,0 +1,2 @@
++Name : Abtin
++Last Name : Zandi
+\ No newline at end of file
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git add PersoalInformation.txt
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ touch Courses.txt
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   PersoalInformation.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Courses.txt
+
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git commit -m "save name and last name"
+[master 7d847cf] save name and last name
+ 1 file changed, 2 insertions(+)
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Courses.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ touch skills
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Courses.txt
+        skills
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Courses.txt
+        skills.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git add .
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git commit -m "create courses and skills txt files"
+[master b6a3d26] create courses and skills txt files
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Courses.txt
+ create mode 100644 skills.txt
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Courses.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git diff
+diff --git a/Courses.txt b/Courses.txt
+index e69de29..6b8cede 100644
+--- a/Courses.txt
++++ b/Courses.txt
+@@ -0,0 +1,4 @@
++Git
++Machine Learning with python
++#C
++Data Structure and Algorithm
+\ No newline at end of file
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git add Courses.txt
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git commit -m "Save courses"
+[master f8d9955] Save courses
+ 1 file changed, 4 insertions(+)
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git  status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   skills.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git diff
+diff --git a/skills.txt b/skills.txt
+index e69de29..3f700a8 100644
+--- a/skills.txt
++++ b/skills.txt
+@@ -0,0 +1,7 @@
++Python
++Java,JavaFX
++C
++Html Css JS
++ML (Python)
++
++printing hello world in 100 programming language (Legend)
+\ No newline at end of file
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git commit -m "New Skills have been saved"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   skills.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git add .
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git commit -m "New Skills have been saved"
+[master f07c0d6] New Skills have been saved
+ 1 file changed, 7 insertions(+)
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git log
+commit f07c0d6da5c6b6b14e588c9ba9ddaf7f277d4a10 (HEAD -> master)
+Author: Abtinz <abtinzandi@gmail.com>
+Date:   Wed Feb 2 22:50:16 2022 +0330
+
+    New Skills have been saved
+
+commit f8d99555c8eed1bcecbca3844d4ea725d0e1620d
+Author: Abtinz <abtinzandi@gmail.com>
+Date:   Wed Feb 2 22:43:04 2022 +0330
+
+    Save courses
+
+commit b6a3d2695ad70ad4d18d0ce95ff5900d0d9dc151
+Author: Abtinz <abtinzandi@gmail.com>
+Date:   Wed Feb 2 22:39:06 2022 +0330
+
+    create courses and skills txt files
+
+commit 7d847cf14512e561242fc43e01acf0effc4e716e
+Author: Abtinz <abtinzandi@gmail.com>
+Date:   Wed Feb 2 22:36:39 2022 +0330
+
+    save name and last name
+
+commit 0545c5966997ec8554d83a25e89a9d4d8fcfc393
+Author: Abtinz <abtinzandi@gmail.com>
+Date:   Wed Feb 2 22:30:13 2022 +0330
+
+    create PersoalInformation file
+(END)
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git log --oneline
+f07c0d6 (HEAD -> master) New Skills have been saved
+f8d9955 Save courses
+b6a3d26 create courses and skills txt files
+7d847cf save name and last name
+0545c59 create PersoalInformation file
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git log --oneline
+f07c0d6 (HEAD -> master) New Skills have been saved
+f8d9955 Save courses
+b6a3d26 create courses and skills txt files
+7d847cf save name and last name
+0545c59 create PersoalInformation file
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git blame skills.txt
+f07c0d6d (Abtinz 2022-02-02 22:50:16 +0330 1) Python
+f07c0d6d (Abtinz 2022-02-02 22:50:16 +0330 2) Java,JavaFX
+f07c0d6d (Abtinz 2022-02-02 22:50:16 +0330 3) C
+f07c0d6d (Abtinz 2022-02-02 22:50:16 +0330 4) Html Css JS
+f07c0d6d (Abtinz 2022-02-02 22:50:16 +0330 5) ML (Python)
+f07c0d6d (Abtinz 2022-02-02 22:50:16 +0330 6)
+f07c0d6d (Abtinz 2022-02-02 22:50:16 +0330 7) printing hello world in 100 programming language (Legend)
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git blame Courses.txt
+f8d99555 (Abtinz 2022-02-02 22:43:04 +0330 1) Git
+f8d99555 (Abtinz 2022-02-02 22:43:04 +0330 2) Machine Learning with python
+f8d99555 (Abtinz 2022-02-02 22:43:04 +0330 3) #C
+f8d99555 (Abtinz 2022-02-02 22:43:04 +0330 4) Data Structure and Algorithm
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git tag "V1.0 (Person Details)"
+fatal: 'V1.0 (Person Details)' is not a valid tag name.
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git tag "Person_Details"
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git tag
+Person_Details
+
+ABTIN@HMD MINGW64 ~/Desktop/git hub (master)
+$ git log
+commit f07c0d6da5c6b6b14e588c9ba9ddaf7f277d4a10 (HEAD -> master, tag: Person_Details)
+Author: Abtinz <abtinzandi@gmail.com>
+Date:   Wed Feb 2 22:50:16 2022 +0330
+
+    New Skills have been saved
+
+commit f8d99555c8eed1bcecbca3844d4ea725d0e1620d
+Author: Abtinz <abtinzandi@gmail.com>
+Date:   Wed Feb 2 22:43:04 2022 +0330
+
+    Save courses
+
+commit b6a3d2695ad70ad4d18d0ce95ff5900d0d9dc151
+Author: Abtinz <abtinzandi@gmail.com>
+Date:   Wed Feb 2 22:39:06 2022 +0330
+
+    create courses and skills txt files
+
+commit 7d847cf14512e561242fc43e01acf0effc4e716e
+Author: Abtinz <abtinzandi@gmail.com>
+Date:   Wed Feb 2 22:36:39 2022 +0330
