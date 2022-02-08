@@ -51,3 +51,20 @@ b6a3d26 create courses and skills txt files
 7d847cf save name and last name
 0545c59 create PersoalInformation file
 
+ABTIN@HMD MINGW64 ~/Desktop/coding/Git-Github tutorial/git maktabkhoneh/New Git Folder/GitHub-Git (feature-1)
+$ git add .
+
+ABTIN@HMD MINGW64 ~/Desktop/coding/Git-Github tutorial/git maktabkhoneh/New Git Folder/GitHub-Git (feature-1)
+$
+
+ABTIN@HMD MINGW64 ~/Desktop/coding/Git-Github tutorial/git maktabkhoneh/New Git Folder/GitHub-Git (feature-1)
+$ git commit -m "merg txt file"
+[feature-1 3ccced1] merg txt file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 MaktabKhoneh/gitMergeDetails.txt
+
+ABTIN@HMD MINGW64 ~/Desktop/coding/Git-Github tutorial/git maktabkhoneh/New Git Folder/GitHub-Git (feature-1)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
