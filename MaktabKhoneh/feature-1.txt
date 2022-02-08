@@ -1,0 +1,33 @@
+ABTIN@HMD MINGW64 ~/Desktop/coding/Git-Github tutorial/git maktabkhoneh/New Git Folder/GitHub-Git (master)
+$ git checkout -b feature-1
+Switched to a new branch 'feature-1'
+
+ABTIN@HMD MINGW64 ~/Desktop/coding/Git-Github tutorial/git maktabkhoneh/New Git Folder/GitHub-Git (feature-1)
+$ touch feature-1.txt
+
+ABTIN@HMD MINGW64 ~/Desktop/coding/Git-Github tutorial/git maktabkhoneh/New Git Folder/GitHub-Git (feature-1)
+$ git status
+On branch feature-1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        MaktabKhoneh/feature-1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ABTIN@HMD MINGW64 ~/Desktop/coding/Git-Github tutorial/git maktabkhoneh/New Git Folder/GitHub-Git (feature-1)
+$ git commit -m "create barch fearure-1 and feature-1.txt file"
+On branch feature-1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        MaktabKhoneh/feature-1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ABTIN@HMD MINGW64 ~/Desktop/coding/Git-Github tutorial/git maktabkhoneh/New Git Folder/GitHub-Git (feature-1)
+$ git add .
+
+ABTIN@HMD MINGW64 ~/Desktop/coding/Git-Github tutorial/git maktabkhoneh/New Git Folder/GitHub-Git (feature-1)
+$ git commit -m "create barch fearure-1 and feature-1.txt file"
+[feature-1 88ca64c] create barch fearure-1 and feature-1.txt file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 MaktabKhoneh/feature-1.txt
