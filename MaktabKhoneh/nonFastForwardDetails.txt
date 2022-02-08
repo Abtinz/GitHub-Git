@@ -1,3 +1,7 @@
+master commit 
+git/github/vesion controler
 git course final project:(goal :non fast forward)
-
 feature-2 first edit
+
+git checkout -d feature-1
+git checkout -d feature-2
