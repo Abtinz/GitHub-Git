@@ -1,0 +1,36 @@
+ABTIN@HMD MINGW64 ~/Desktop/coding/Git-Github tutorial/git maktabkhoneh/New Git Folder/GitHub-Git (master)
+$ git checkout feature-2
+Switched to branch 'feature-2'
+
+ABTIN@HMD MINGW64 ~/Desktop/coding/Git-Github tutorial/git maktabkhoneh/New Git Folder/GitHub-Git (feature-2)
+$ git status
+On branch feature-2
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        MaktabKhoneh/feature-2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ABTIN@HMD MINGW64 ~/Desktop/coding/Git-Github tutorial/git maktabkhoneh/New Git Folder/GitHub-Git (feature-2)
+$ git add .
+git
+ABTIN@HMD MINGW64 ~/Desktop/coding/Git-Github tutorial/git maktabkhoneh/New Git Folder/GitHub-Git (feature-2)
+$ git log --oneline
+16f2bf9 (HEAD -> feature-2) feature-2 non fast forward
+9039213 feature-1 last text
+c257358 first merg (completed)
+d7ee2b3 new txt file for non fast forward section
+3ccced1 (feature-1) merg txt file
+41b2366 oneline log git stage in branches
+edab038 Sava branch feature-1 git stages
+88ca64c create barch fearure-1 and feature-1.txt file
+4a24a58 (origin/master, origin/HEAD) Second git project push and clone
+5a82ce1 Second project of git course
+86c5487 Make files Ready to push
+dbd545e First Project
+f07c0d6 New Skills have been saved
+f8d9955 Save courses
+b6a3d26 create courses and skills txt files
+7d847cf save name and last name
+0545c59 create PersoalInformation file
+
